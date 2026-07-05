@@ -18,7 +18,7 @@ Create a K-Means clustering algorithm to group customers of a retail store based
 
 **Dataset:** Mall Customer Dataset
 
-![Problem Statement](statement.png)
+![Problem Statement](images/statement.png)
 
 ---
 
@@ -26,35 +26,35 @@ Create a K-Means clustering algorithm to group customers of a retail store based
 
 ### Code - Part 1
 
-![Code Part 1](codepart1.png)
+![Code Part 1](images/codepart1.png)
 
 ### Code - Part 2
 
-![Code Part 2](codepart2.png)
+![Code Part 2](images/codepart2.png)
 
 ---
 
 ### Code - Part 3
 
-![Code Part 3](codepart3.png)
+![Code Part 3](images/codepart3.png)
 
 ---
 
 ## 📊 Output - part 1
 
-![Output](outputpart1.png)
+![Output](images/outputpart1.png)
 
 ---
 
 ## 📊 Output - part 2
 
-![Output](outputpart2.png)
+![Output](images/outputpart2.png)
 
 ---
 
 ## 📊 Output - part 3
 
-![Output](outputpart3.png)
+![Output](images/outputpart3.png)
 
 ---
 
