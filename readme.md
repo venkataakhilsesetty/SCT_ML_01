@@ -1,28 +1,26 @@
-# SCT_ML_01 - Customer Segmentation using K-Means Clustering
+# SCT_ML_01 - House Price Prediction using Linear Regression
 
 ## 📌 Project Overview
 
-This project implements the **K-Means Clustering** algorithm to segment customers of a retail store based on their purchasing behavior. Customer segmentation helps businesses identify groups of customers with similar characteristics, enabling personalized marketing strategies and improved customer engagement.
+This project implements a **Linear Regression** model to predict house prices based on important housing features such as **square footage**, **number of bedrooms**, and **number of bathrooms**. Linear Regression is one of the most widely used supervised machine learning algorithms for predicting continuous values.
 
 ---
 
 ## 🎯 Task Objective
 
-Develop a **K-Means Clustering** model to group customers of a retail store based on their purchase history using the **Mall Customer Dataset**.
+Build a **Linear Regression** model to predict house prices using housing features including square footage, bedrooms, and bathrooms.
 
 ---
 
 ## 📋 Problem Statement
 
-Create a K-Means clustering algorithm to group customers of a retail store based on their purchase history.
-
-**Dataset:** Mall Customer Dataset
+Implement a **Linear Regression** model to predict the prices of houses based on their square footage and the number of bedrooms and bathrooms.
 
 ![Problem Statement](images/statement.png)
 
 ---
 
-## 💻 Python Implementation
+# 💻 Python Implementation
 
 ### Code - Part 1
 
@@ -32,34 +30,29 @@ Create a K-Means clustering algorithm to group customers of a retail store based
 
 ![Code Part 2](images/codepart2.png)
 
----
-
 ### Code - Part 3
 
 ![Code Part 3](images/codepart3.png)
 
 ---
 
-## 📊 Output - part 1
+# 📊 Output
 
-![Output](images/outputpart1.png)
+### Output - Part 1
 
----
+![Output Part 1](images/outputpart1.png)
 
-## 📊 Output - part 2
+### Output - Part 2
 
-![Output](images/outputpart2.png)
+![Output Part 2](images/outputpart2.png)
 
----
+### Output - Part 3
 
-## 📊 Output - part 3
-
-![Output](images/outputpart3.png)
+![Output Part 3](images/outputpart3.png)
 
 ---
 
-
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -69,93 +62,97 @@ Create a K-Means clustering algorithm to group customers of a retail store based
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
-- **Mall_Customers.csv**
+The project uses a housing dataset containing information such as:
 
-The dataset contains customer information including:
-- Customer ID
-- Gender
-- Age
-- Annual Income (k$)
-- Spending Score (1–100)
+- Square Footage
+- Number of Bedrooms
+- Number of Bathrooms
+- House Price (Target Variable)
 
----
-
-## ⚙️ Algorithm Used
-
-**K-Means Clustering**
-
-K-Means is an unsupervised machine learning algorithm that groups similar data points into clusters based on feature similarity.
+These features are used to train the Linear Regression model to predict house prices.
 
 ---
 
-## 📁 Project Structure
+# ⚙️ Machine Learning Algorithm
 
-```
+## Linear Regression
+
+Linear Regression is a supervised machine learning algorithm that models the relationship between one dependent variable (house price) and one or more independent variables (housing features).
+
+The model learns from historical data and predicts the price of new houses based on the given features.
+
+---
+
+# 📁 Project Structure
+
+```text
 SCT_ML_01/
 │
 ├── images/
 │   ├── statement.png
-│   ├── pic1.png
-│   ├── pic2.png
-│   ├── output.png
-│   └── kmap.png
+│   ├── codepart1.png
+│   ├── codepart2.png
+│   ├── codepart3.png
+│   ├── outputpart1.png
+│   ├── outputpart2.png
+│   └── outputpart3.png
 │
-├── customer_segmentation.py
-├── Mall_Customers.csv
-├── Customer_Segments.csv
-└── README.md
+├── house_price_prediction.py
+├── Housing.csv
+├── README.md
 ```
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
-### Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/venkataakhilsesetty/SCT_ML_01.git
 ```
 
-### Navigate to the project folder
+### 2. Navigate to the project folder
 
 ```bash
 cd SCT_ML_01
 ```
 
-### Install required libraries
+### 3. Install the required libraries
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn
 ```
 
-### Run the project
+### 4. Run the project
 
 ```bash
-python customer_segmentation.py
+python house_price_prediction.py
 ```
 
 ---
 
-## 📈 Results
+# 📈 Results
 
-- Successfully segmented customers into different groups.
-- Applied the K-Means Clustering algorithm.
-- Visualized customer clusters using a scatter plot.
-- Identified customer groups based on annual income and spending score.
-
----
-
-## 🚀 Future Improvements
-
-- Determine the optimal number of clusters using advanced evaluation metrics.
-- Add interactive visualizations.
-- Build a customer recommendation system based on the generated clusters.
+- Successfully trained a Linear Regression model.
+- Predicted house prices using housing features.
+- Evaluated model performance using regression metrics.
+- Generated predictions for unseen housing data.
 
 ---
 
-## 👨‍💻 Author
+# 🚀 Future Improvements
+
+- Improve prediction accuracy using advanced regression algorithms.
+- Perform feature engineering and feature selection.
+- Apply cross-validation for better model evaluation.
+- Develop a web application for real-time house price prediction.
+
+---
+
+# 👨‍💻 Author
 
 **Venkata Akhil Sesetty**
 
@@ -163,4 +160,4 @@ Machine Learning Intern – SkillCraft Technology
 
 ---
 
-⭐ If you found this project useful, consider giving it a **Star** on GitHub!
+⭐ If you found this project useful, consider giving it a **Star ⭐** on GitHub!
